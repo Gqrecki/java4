@@ -1,4 +1,5 @@
-MAIN
+# MAIN
+```
 Hibernate: 
     insert 
     into
@@ -42,11 +43,12 @@ Hibernate:
     drop table if exists rectangles cascade
 Hibernate: 
     drop table if exists triangles cascade
+```
 
 
 
-
-TEST
+# TEST
+```
 Hibernate: 
     drop table if exists rectangles cascade
 Hibernate: 
@@ -117,3 +119,4 @@ Hibernate:
 Hibernate: 
     drop table if exists triangles cascade
 [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.085 s -- in lab4.ShapeDAOTest
+```
