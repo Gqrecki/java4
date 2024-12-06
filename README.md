@@ -44,6 +44,8 @@ Hibernate:
     drop table if exists triangles cascade
 
 
+
+
 TEST
 Hibernate: 
     drop table if exists rectangles cascade
